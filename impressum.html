@@ -10,60 +10,88 @@
 <body>
     <div class="nav">
       <div class="container">
-        <ul class="pull-left">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="http://www.mni.thm.de/">THM MNI</a></li>
-          <li><a href="http://www.github.com/mariusgrebe/ibs">GitHub</a></li>
-          <li><a href="http://www.codecademy.com/unobtaniumLoL">Codecademy</a></li>
-          <li><a href="impressum.html">Impressum</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-        </ul>
+        <nav>
+            <ul class="pull-left">
+              <li role="button" class="active"><a href="index.html">Home</a></li>
+              <li role="button"><a href="http://www.mni.thm.de/">THM MNI</a></li>
+              <li role="button"><a href="http://www.github.com/mariusgrebe/ibs">GitHub</a></li>
+              <li role="button"><a href="http://www.codecademy.com/unobtaniumLoL">Codecademy</a></li>
+              <li role="button"><a href="impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="pull-right">
+              <li role="button"><a href="#">Sign Up</a></li>
+              <li role="button"><a href="#">Log In</a></li>
+            </ul>
+        </nac>
       </div>
-    </div>
+    </nav>
 
     <div class="jumbotron">
         <div class="container">
-            <h1>IBS Marius Grebe Impressum</h1>
-            <p>Unter der Leitung von Klaus Quibeldey-Cirkel.</p>
-            <a href="#"></a>
+            <article tabindex="1">
+                <h1>IBS Marius Grebe</h1>
+                <p>Unter der Leitung von Klaus Quibeldey-Cirkel.</p>
+            </articel>
         </div>
     </div> 
     
-    <div class="neighborhood-guides">
+    <div class="main">
         <div class="container">
-	    	<h2>Impressum</h2>
-	    	<p id="plaintext">Angaben gem. §5 TMG</p>
-	 	<p id="plaintext">Marius Grebe</p>
-		<p id="plaintext">Südanlage 20</p>
-		<p id="plaintext">35390 Gießen</p>
-		<p id="plaintext">Germany</p>
-		<p id="plaintext">marius.grebe@mni.thm.de</p>
+            	<h2 tabindex="0">Impressum</h2>
+		<article tabindex="0">
+		    	<p id="plaintext">Angaben gem. §5 TMG</p>
+		 	<p id="plaintext">Marius Grebe</p>
+			<p id="plaintext">Südanlage 20</p>
+			<p id="plaintext">35390 Gießen</p>
+			<p id="plaintext">Germany</p>
+			<p id="plaintext">marius.grebe@mni.thm.de</p>
+		</article>
         </div>
     </div>
 
-    <div class="learn-more">
- 	<div class="container">
+    <footer class="learn-more">
+	  <div class="container">
 		<div class="row">
-     			<div class="col-md-4">
-				<h3>THM</h3>
-				<p>Die Technische Hochschule Mittelhessen bietet allerhand Möglichkeiten zum Studieren.</p>
-				<p><a href="http://www.thm.de/site/">Homepage der THM</a></p>
-     			</div>
- 			<div class="col-md-4">
-				<h3>Codecademy</h3>
-				<p>Auf der Codecademy Seite kann eigenständig angewandt Programmiersprachenerlernt werden.</p>
-				<p><a href="http://www.codecademy.com/unobtaniumLoL">Lerne auf Codecademy</a></p>
- 			</div>
- 			<div class="col-md-4">
-				<h3>GitHub</h3>
-				<p>Austausch von Quellcode und Zusammenarbeiten in Gruppen ganz einfach gemacht mit GitHub</p>
-				<p><a href="http://www.github.com/mariusgrebe/ibs">Quellcode dieser Seite</a></p>
-			</div>
-   		</div>
- 	</div>
-    </div>
-</body>
+	      <div class="col-md-3">
+			<article tabindex="0">
+    			<h3>THM</h3>
+    			<p>Die Technische Hochschule Mittelhessen bietet allerhand Möglichkeiten zum Studieren.</p>
+			</article>
+			<p><a href="http://www.thm.de/site/">Homepage der THM</a></p>
+	      </div>
+		  <div class="col-md-3">
+		    <article tabindex="0">
+    			<h3>Codecademy</h3>
+    			<p>Auf der Codecademy Seite kann eigenständig angewandt Programmiersprachenerlernt werden.</p>
+			</article>
+			<p><a href="http://www.codecademy.com/unobtaniumLoL">Lerne auf Codecademy</a></p>
+		  </div>
+		  <div class="col-md-3">
+	        <article tabindex="0">
+			    <h3>GitHub</h3>
+			    <p>Austausch von Quellcode und Zusammenarbeiten in Gruppen ganz einfach gemacht mit GitHub</p>
+			</article>
+			<p><a href="http://www.github.com/mariusgrebe/ibs">Quellcode dieser Seite</a></p>
+		  </div>
+		  <div class="col-md-3">
+	        <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+                <fieldset>
+                    <h3 tabindex="0">Wikipedia Suche</h3>
+                    <input type="search"  name="search" value="" />
+                    <p></p>
+                    <input type="submit" name="go" value="Artikelsuche"/>
+                    <input type="submit" name="fulltext" value="Volltextsuche" />
+                </fieldset>
+            	</form>
+		<p></p>
+            <a href="http://wave.webaim.org/report#/ibs3-mariusgrebe.cloudcontrol.com">
+                <img alt="picture. web accessibility initiative" src="http://www.w3.org/Icons/wai"/>
+            </a>
+		  </div>
+	    </div>
+	  </div>
+	</footer>
+  </body>
 </html>
