@@ -1,24 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title>Softwaretechnik Marius Grebe</title>
-<link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<title>Internetbasierte Systeme Marius Grebe</title>
+<script src="jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
 <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
 </head>
 <body>
-	<header>
-		<h1>Homepage Softwaretechnik Marius Grebe</h1>
-	</header>
-	<article>
-		<p> Hier entsteht eine Homepage zum Modul Softwaretechnik 2014/2015 unter der Leitung von Klaus Quibeldey-Cirkel
-		</p>
-		<p> Viel Spaß beim Umsehen :)
-		</p>
-	</article>
-	<div id="footer">
-		<a href="/impressum.html">Impressum</a>
-	</div>
-</body>
+    <div class="nav">
+      <div class="container">
+        <nav>
+            <ul class="pull-left">
+              <li role="button" class="active"><a href="index.html">Home</a></li>
+              <li role="button"><a href="http://www.mni.thm.de/">THM MNI</a></li>
+              <li role="button"><a href="http://www.github.com/mariusgrebe/ibs">GitHub</a></li>
+              <li role="button"><a href="http://www.codecademy.com/unobtaniumLoL">Codecademy</a></li>
+	      <li role="button"><a href="app.html">Countdown App</a></li>
+              <li role="button"><a href="impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="pull-right">
+              <li role="button"><a href="#">Sign Up</a></li>
+              <li role="button"><a href="#">Log In</a></li>
+            </ul>
+        </nac>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <article tabindex="1"> 
+                <h1>IBS Marius Grebe</h1>
+                <p>Unter der Leitung von Klaus Quibeldey-Cirkel.</p>
+            </articel>
+        </div>
+    </div> 
+    
+    <div class="main">
+        <div class="container">
+            <article tabindex="2">
+                <h2>Erstellen einer Website</h2>
+                <p>Hier entsteht eine Homepage zum Modul Internetbasierte Systeme 2014/2015 unter der Leitung von Klaus Quibeldey-Cirkel.</p>
+                <p>Viel Spaß beim Umsehen :)</p>
+            </article>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img alt="photo" src="sunset1.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img alt="photo" src="sunset2.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img alt="photo" src="sunset3.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-3">
+			<article tabindex="0">
+    			<h3>Countdown App</h3>
+    			<p>Diese JavaScript App wurde mit Hilfe von Sencha Touch erstellt. Beinhaltet Features wie Pausieren, Audio und per Slider einstellbare Minutenanzahl.</p>
+			</article>
+			<p><a href="app.html">Countdown App</a></p>
+	      </div>
+		  <div class="col-md-3">
+		    <article tabindex="0">
+    			<h3>Codecademy</h3>
+    			<p>Auf der Codecademy Seite kann eigenständig angewandt Programmiersprachenerlernt werden.</p>
+			</article>
+			<p><a href="http://www.codecademy.com/unobtaniumLoL">Lerne auf Codecademy</a></p>
+		  </div>
+		  <div class="col-md-3">
+	        <article tabindex="0">
+			    <h3>GitHub</h3>
+			    <p>Austausch von Quellcode und Zusammenarbeiten in Gruppen ganz einfach gemacht mit GitHub</p>
+			</article>
+			<p><a href="http://www.github.com/mariusgrebe/ibs">Quellcode dieser Seite</a></p>
+		  </div>
+		  <div class="col-md-3">
+		<p></p>
+	        <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+                <fieldset>
+                    <legend><label for="suche" tabindex="0">Wikipedia Suche</label></legend>
+                    <input id="suche" type="search"  name="search" value="" required="required" maxLength=50 />
+                    <p></p>
+                    <input type="submit" name="go" value="Artikelsuche"/>
+                    <input type="submit" name="fulltext" value="Volltextsuche" />
+                </fieldset>
+            	</form>
+		<p></p>
+	        	<a href="http://wave.webaim.org/report#/ibs-mariusgrebe.cloudcontrolapp.com/">
+	                	<img alt="picture. web accessibility initiative" src="http://www.w3.org/Icons/wai"/>
+            		</a>
+		<p></p>
+	      </div>
+	    </div>
+	  </div>
+	</footer>
+  </body>
 </html>
